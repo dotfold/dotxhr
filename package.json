@@ -18,6 +18,7 @@
   "license": "MIT",
   "devDependencies": {
     "browserify": "^6.2.0",
-    "rx": "^2.3.14"
+    "rx": "^2.3.14",
+    "uglify-js": "^2.4.15"
   }
 }
