@@ -17,6 +17,7 @@
   "author": "dotfold <jamesmcnamee@gmail.com>",
   "license": "MIT",
   "devDependencies": {
+    "browserify": "^6.2.0",
     "rx": "^2.3.14"
   }
 }
