@@ -1,0 +1,22 @@
+{
+  "name": "dotxhr",
+  "version": "0.0.0",
+  "description": "reactively xhr the things",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "frp",
+    "rxjs",
+    "rx",
+    "xhr",
+    "node",
+    "browserify"
+  ],
+  "author": "dotfold <jamesmcnamee@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "rx": "^2.3.14"
+  }
+}
