@@ -1,2 +1,2 @@
-module.exports.client = require('./lib/client')
-module.exports.requst = require('./lib/request')
+module.exports.Client = require('./lib/client').Client
+module.exports.Request = require('./lib/request')
