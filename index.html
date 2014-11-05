@@ -6,10 +6,29 @@
  </head>
  <body>
 
-   <script src="./dist/bundle.js" type="text/javascript">
+   <script src="./dist/bundle.js" type="text/javascript"></script>
+   <script type="text/javascript">
 
-    var client = new Client();
+    (function(dx) {
 
+      console.log('standalone module: ', dx);
+
+      var client = new dx.Client();
+      var obs = client.enqueueRequest('http://api.movideo.com/rest/session?key=jmcnamee&applicationalias=ipad&output=json', 'GET')
+
+      console.log('subscribe...')
+      obs.subscribe(
+        function(x) {
+          console.log('x next', x)
+        },
+        function(err) {
+          console.log('x err', err)
+        },
+        function(data) {
+          console.log('x complete', data)
+        });
+
+    })(window.DXR);
 
    </script>
 
