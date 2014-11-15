@@ -4,7 +4,7 @@
   "description": "reactively xhr the things",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "make test"
   },
   "keywords": [
     "frp",
@@ -18,6 +18,8 @@
   "license": "MIT",
   "devDependencies": {
     "browserify": "^6.2.0",
+    "chai": "^1.10.0",
+    "mocha": "^2.0.1",
     "rx": "^2.3.14",
     "uglify-js": "^2.4.15"
   }
