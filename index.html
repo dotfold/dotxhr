@@ -14,7 +14,8 @@
       console.log('standalone module: ', dx);
 
       var client = new dx.Client();
-      var obs = client.enqueueRequest('http://api.movideo.com/rest/session?key=jmcnamee&applicationalias=ipad&output=json', 'GET')
+      client.initializeWithBaseUrl('api.movideo.com')
+      var obs = client.enqueueRequest('/rest/session?key=jmcnamee&applicationalias=ipad&output=json', 'GET')
 
       console.log('subscribe...')
       obs.subscribe(
