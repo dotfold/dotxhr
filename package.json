@@ -19,8 +19,11 @@
   "devDependencies": {
     "browserify": "^6.2.0",
     "chai": "^1.10.0",
+    "http-browserify": "^1.7.0",
     "mocha": "^2.0.1",
     "rx": "^2.3.14",
+    "sinon": "git://github.com/cjohansen/Sinon.JS.git#browserify",
+    "sinon-chai": "^2.6.0",
     "uglify-js": "^2.4.15"
   }
 }
